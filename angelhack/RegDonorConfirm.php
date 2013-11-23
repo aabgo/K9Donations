@@ -24,9 +24,10 @@ class RegisterConfirm {
         $this->db=mysql_select_db($this->data,$this->con);
     }	
 	public function tablename() {
-        $this->table=mysql_query("INSERT INTO profile(fullName, contactNumber, company, address, email, amount) 
-								 VALUES ('".$_POST[fullname]."','".$_POST[contact]."','".$_POST[companyname]."','".$_POST[address]."','".$_POST[emailaddress]."',
-								 ,'".$_POST[amount]."')");
+	
+        $this->table=mysql_query("INSERT INTO donor(fullName, companyName,  address, emailAddress, contactNumber, amount) 
+								 VALUES ('".$_POST[fullName]."','".$_POST[companyName]."','".$_POST[address]."','".$_POST[emailAddress]."',
+								 '".$_POST[contactNumber]."','".$_POST[amount]."' )");
     }
 }
 
@@ -35,7 +36,6 @@ $name->controls();
 $name->connection();
 $name->databaseconnection();
 $name->tablename();
-
 header("Location: Home.php");
 
 ?>

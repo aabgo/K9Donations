@@ -5,7 +5,7 @@ public function login (){
 
 echo"
 <body topmargin='30' leftmargin='350' rightmargin='300'>
-	<img src='.jpg' height='500px' width='700px'>
+	<img src='login.jpg' height='500px' width='700px'>
 	<form name = 'loginsession' action = 'LoginDonorSess.php'>
 	<table border='0' align='center'>
 		<tr>
