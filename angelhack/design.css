@@ -1,0 +1,89 @@
+		
+		body 
+		{
+        margin:auto;
+        width:100vh;
+		height:100vh;
+		}
+		.button
+		{
+		text-decoration:none; 
+		text-align:center; 
+		padding:15px 49.5px; 
+		border:solid 1px #151B8D; 
+		font:16px Arial; 
+		color:blue; 
+		background:#7FFF00; 
+		}
+		.buttonoff
+		{
+		text-decoration:none; 
+		text-align:center; 
+		padding:15px 61px; 
+		border:solid 1px #151B8D; 
+		font:18px Arial; 
+		color:white; 
+		background:#2554C7; 
+		}		
+		.button1
+		{
+		text-decoration:none; 
+		text-align:center; 
+		padding:5px 30px; 
+		border:solid 1px #151B8D; 
+		font:15px Arial; 
+		color:white; 
+		background:#2554C7; 
+		}	
+		input[type=submit]:hover{
+		background-color:#151B8D;
+		}
+		input[type=button]:hover{
+		background-color:#151B8D;
+		}		
+		div.scrollable {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		overflow: scroll;
+}			
+
+.scroll { 
+scrollbar-3dlight-color: white; 
+scrollbar-arrow-color: white; 
+scrollbar-base-color: white; 
+scrollbar-darkshadow-color: white; 
+scrollbar-face-color: B1AC6E; 
+scrollbar-highlight-color: B1AC6E; 
+scrollbar-shadow-color: B1AC6E; 
+scrollbar-track-color: B1AC6E; 
+FILTER: chroma (color=B1AC6E); 
+} 
+
+a:hover {color:yellowgreen; text-decoration:none}
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:black;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px; 
+}
+#boxes #dialog {
+  width: 760px; 
+  height:500px;
+  padding:1px;
+  background-color:#ffffff;
+}
