@@ -5,7 +5,7 @@ public function login (){
 
 echo"
 <body topmargin='30' leftmargin='350' rightmargin='300'>
-	<img src='login.jpg' height='500px' width='700px'>
+	<img src='k9logo.jpg' height='500px' width='700px'>
 	<form name = 'LoginBenSess' action = 'LoginBenSess.php'>
 	<table border='0' align='center'>
 		<tr>
@@ -18,7 +18,6 @@ echo"
 		</tr>
 		<tr>
 			<td><input style='text-decoration:none; text-align:center; padding:1px 10px; border:solid 1px #004F72; font:18px Arial, Helvetica, sans-serif; font-weight:bold; color:#E5FFFF; background:#1743b3; -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff; box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;' type='submit' value='Login'/>
-			<td align='center'><a href='onRegister.php' style='color:#1743b3;font-family:arial;font-size:15px;font-weight:bold;'>Not yet a member?</a></td>
 		</tr>
 	</table>
 	</form>

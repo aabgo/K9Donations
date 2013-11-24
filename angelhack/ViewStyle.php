@@ -4,16 +4,17 @@
 		public function head()
 		{
 			echo "
-			<link href='design.css' rel='stylesheet' type='text/css'>
+			<link href='design.css' rel='stylesheet' type='text/css'/>
+			<link type='text/css' rel='stylesheet' href='css/bootstrap-themes.css'/>
 			<html>
 				<head>
-					<title> INSERT TITLE OF SYSTEM </title>
+					<title> K9Donations </title>
 					<style>
 						html
 						{
-							background:url('gray.jpg') no-repeat center center;
+							background:url('gray.jpg')  center;
 							min-height:100vh;
-							background-size:cover;
+							background-size:auto;
 						}	
 					</style>	
 
@@ -36,14 +37,13 @@
 					<a href='CreateAccount.html' style='text-decoration:none'><font face='arial'><font size='1'><font color='gray'>My Account |</font></font></font></a>	
 					<a href='login.php' style='text-decoration:none'><font face='arial'><font size='1'><font color='gray'>Sign Out</font></font></font></a>	</div>	
 				<div style='position:absolute;left:14%;top:1.6%;'>	
-					<img border='0' src='logogray.jpg' alt='K9 logo' width='104' height='75'>	
+					<img border='0' align='center' src='k9logo.jpg' alt='K9 logo' width='104' height='75'>	
 				</div>	
-				<div style='position:absolute;left:15%;top:18%;width:81.5%;height:85%;'>
+				<div style='position:absolute;left:27%;top:18%;width:90%;height:85%;'>
 					<table border='1' style='align:center;'>
 						<a href='Home.php' align='center' class='button' name='home'>HOME</a>
-						<a href='Signup.php' align='center' class='button' name='about'>CARE</a>
+						<a href='Signup.php' align='center' class='button' name='about'>K9 Donations </a>
 						<a href='transaction.html' align='center' class='button' name='transaction'>YOUR TRANSACTIONS</a>
-						<a href='profile.html' align='center' class='button' name='profile'>&emsp;PROFILE &emsp;</a>
 					</table>
 				</div>	
 				<div style='position:absolute;left:15%;top:32%;width:67.5%;height:56%;'>
@@ -64,6 +64,7 @@
 				</div>	
 
 			</form>
+			<script src='js/bootstrap.js'> </script>
 			</body>
 			</html>";	
 		}

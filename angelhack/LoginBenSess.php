@@ -4,7 +4,7 @@
 	$pass = MD5($password);
 	$db = mysql_connect('localhost', 'root', 'root');
 	mysql_select_db('tracking');
-	$query = "Select * from donor WHERE username = '$username' and password = '$pass'";
+	$query = "Select * from beneficiary WHERE username = '$username' and password = '$pass'";
 	$r = mysql_query($query);
 	$rows = mysql_num_rows($r);
 
@@ -17,7 +17,7 @@
 	}
 
 	else{
-		header("Location: LoginDonor.php");
+		header("Location: LoginBeneficiary.php");
 	}
 	mysql_close($db);
 ?>

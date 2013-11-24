@@ -7,7 +7,7 @@ echo "
 
 <body>
 	<div style='position:absolute;left:15.5%;top:24%;'>	
-		<p><font face='arial'><font size='2'><b>SYMON:&nbsp;</b><font color='gray'>Share the love!</font></font></font></p>	
+		<p><font face='arial'><font size='2'><b>K9Donations:&nbsp;</b><font color='gray'>Share the love!</font></font></font></p>	
 	</div>	
 	<div style='position:absolute;left:21%;top:34%;'>
 		<h3><font face='arial'> Care to donate? </font> </h3>

@@ -16,15 +16,23 @@ class RegistrationBeneficiary {
 					if(formElement.fullname.value.length < 1){
 						return focusElement(formElement.fullname, 'Please fill-in the required fields!');
 					}
-					return true;
 					
 					if(formElement.address.value.length < 1){
 						return focusElement(formElement.address, 'Please fill-in the required fields!');
 					}
-					return true;
 					
 					if(formElement.contactnumber.value.length < 1){
 						return focusElement(formElement.contactnumber, 'Please fill-in the required fields!');
+					}
+
+					if(formElement.username.value.length < 1){
+						return focusElement(formElement.username, 'Please fill-in the required fields!');
+					}				
+					if(formElement.password1.value.length < 1){
+						return focusElement(formElement.password1, 'Please fill-in the required fields!');
+					}			
+					if(formElement.password1.value != formElement.password2.value){
+						return focusElement(formElement.password2, 'Password and verified password does not match!');
 					}
 					return true;		
 				}	
@@ -59,6 +67,12 @@ class RegistrationBeneficiary {
 				<input type='text' name='address'><font color='red'>*</font></p>
 				<p><font face='arial'><font size='2'>Contact Number&emsp;&nbsp;&thinsp;</font></font>
 				<input type='text' name='contactnumber'><font color='red'>*</font></p>
+				<p><font face='arial'><font size='2'>Username&emsp;&emsp;&emsp;&nbsp;&thinsp;&thinsp;&nbsp;&thinsp;</font></font>
+				<input type='text' name='username'><font color='red'>*</font></p>
+				<p><font face='arial'><font size='2'>Password&emsp;&emsp;&emsp;&nbsp;&nbsp;&thinsp;&nbsp;&thinsp;&thinsp;</font></font>
+				<input type='password' name='password1'><font color='red'>*</font></p>
+				<p><font face='arial'><font size='2'>Confirm Password&nbsp;&thinsp;&thinsp;</font></font>
+				<input type='password' name='password2'><font color='red'>*</font></p>
 				<a href='RegistrationBeneficiaryView.php' align='center' ><input type='submit' value='Register' class='button1'></a>
 				<a href='RegistrationBeneficiary.php' align='center' ><input type='submit' value='Cancel' class='button1' /></a>
 			</div>		

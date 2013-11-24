@@ -8,8 +8,6 @@ class RegisterConfirm {
     var $con;
     var $table;
     var $db;
-	
-	public function
 
     public function controls() {
         $this->host="localhost";
@@ -25,8 +23,8 @@ class RegisterConfirm {
         $this->db=mysql_select_db($this->data,$this->con);
     }	
 	public function tablename() {
-        $this->table=mysql_query("INSERT INTO profile(fullname, address, contactNumber, username, password) 
-								 VALUES ('".$_POST[fullname]."','".$_POST[address]."','".$_POST[contactnumber]."' )");
+        $this->table=mysql_query("INSERT INTO beneficiary(fullName, address, contactNumber, username, password) 
+								 VALUES ('".$_POST[fullname]."','".$_POST[address]."','".$_POST[contactnumber]."', '".$_POST[username]."',md5('".$_POST[password]."'))");
     }
 }
 

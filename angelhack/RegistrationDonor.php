@@ -47,7 +47,7 @@ class RegistrationDonor {
 	<body>
 		<form name='onRegister'  action='RegDonorConfirm.php' method='post' onsubmit='return validateForm(this);' >
 			<div style='position:absolute;left:15.5%;top:24%;'>	
-				<p><font face='arial'><font size='2'><b>PBSP:&nbsp;</b><font color='gray'>Registration</font></font></font></p>	
+				<p><font face='arial'><font size='2'><b>K9Donations:&nbsp;</b><font color='gray'>Registration</font></font></font></p>	
 			</div>	
 			<div style='position:absolute;left:40%;top:34%;'>
 				<p><font face='arial'><font size='2'>Full Name &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&thinsp;</font></font>
