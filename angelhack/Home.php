@@ -14,8 +14,8 @@ class Home {
 				<div style='position:absolute;left:15.5%;top:24%;'>	
 				<p><font face='arial'><font size='2'><b>K9Donations:&nbsp;</b><font color='gray'>Home</font></font></font></p>	
 				</div>	
-				<div style='position:absolute;left:16%;top:30%;'>
-					<img src='pic.png' height='300px' width='700px'>
+				<div style='position:absolute;left:17%;top:38%;'>
+					<img src='pic.png' height='300px' width='650px'>
 				</div>		
 			</form>
 			<script src='js/bootstrap.js'></script>

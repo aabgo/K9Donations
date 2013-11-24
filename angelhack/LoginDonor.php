@@ -4,7 +4,7 @@ class LoginDonor {
 public function login (){
 
 echo"
-<body topmargin='30' leftmargin='350' rightmargin='300'>
+<body topmargin='30' leftmargin='150' rightmargin='300'>
 	<img src='k9logo.jpg' height='500px' width='700px'>
 	<form name = 'LoginDonSess' action = 'LoginDonorSess.php'>
 	<table border='0' align='center'>
