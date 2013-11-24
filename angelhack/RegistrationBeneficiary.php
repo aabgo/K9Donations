@@ -7,7 +7,7 @@ class RegistrationBeneficiary {
 		<link href='design.css' rel='stylesheet' type='text/css'>
 		<html>
 		<head>
-			<title> INSERT TITLE HEARE </title>
+			<title> K9 Donation</title>
 
 			<script type='text/javascript'>
 

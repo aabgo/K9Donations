@@ -8,7 +8,7 @@
 			<link type='text/css' rel='stylesheet' href='css/bootstrap-themes.css'/>
 			<html>
 				<head>
-					<title> K9Donations </title>
+					<title> K9 Donation </title>
 					<style>
 						html
 						{
@@ -39,18 +39,18 @@
 				<div style='position:absolute;left:14%;top:1.6%;'>	
 					<img border='0' align='center' src='k9logo.jpg' alt='K9 logo' width='104' height='75'>	
 				</div>	
-				<div style='position:absolute;left:27%;top:18%;width:90%;height:85%;'>
+				<div style='position:absolute;left:15%;top:18%;width:90%;height:85%;'>
 					<table border='1' style='align:center;'>
 						<a href='Home.php' align='center' class='button' name='home'>HOME</a>
 						<a href='Signup.php' align='center' class='button' name='about'>K9 Donations </a>
-						<a href='transaction.html' align='center' class='button' name='transaction'>YOUR TRANSACTIONS</a>
+						<a href='Donations.php' align='center' class='button' name='transaction'>YOUR TRANSACTIONS</a>
 					</table>
 				</div>	
 				<div style='position:absolute;left:15%;top:32%;width:67.5%;height:56%;'>
 					<fieldset style='width:100%; height:100%'>
 					</fieldset>
 				</div>
-				<div style='opacity:0.3;position:absolute;left:15.1%;top:25.6%;width:69.5%;height:4%;background-color:silver;'>
+				<div style='opacity:0.3;position:absolute;left:15.1%;top:25.6%;width:69.5%;height:4%;background-color:gray;'>
 				</div>	
 
 				<div style='position:absolute;left:14.3%;top:97%;'>	

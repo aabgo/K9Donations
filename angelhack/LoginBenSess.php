@@ -11,7 +11,7 @@
 	if($rows!=0){
 		session_start();
 		$_SESSION['username'] = $username;
-		$_SESSION['password'] = $password;
+		$_SESSION['password'] = $pass;
 		header("Location: Donations.php");
 		break;	
 	}

@@ -2,17 +2,13 @@
 include 'ViewStyle.php';
 
 class Donations {
-	public function validator () {
+	public function validator() {
 		echo "
-		<link href='design.css' rel='stylesheet' type='text/css'>
+		<!DOCTYPE HTML>
 		<html>
 		<head>
-			<title> INSERT TITLE HEARE </title>
-
-			<script type='text/javascript'>
-
-			</script>
-</		head>";	
+			<link href='design.css' rel='stylesheet' type='text/css'>
+		</head>";
 	}
 	
 	public function body () {
@@ -20,7 +16,7 @@ class Donations {
 	if (!$dbserver) die ("unable to connect to mysql: " .mysql_error());
 	mysql_select_db('tracking')
 		or die("Unable to select database: " . mysql_error());
-	$query = "SELECT d.fullName, ,  , years FROM particulars";
+	$query = "SELECT d.fullName, do.date from donor AS d,donation AS do, particulars AS p, beneficiary AS b, where d.idDonor = do.idDonoridDonor AND b.beneficiary_id = p.beneficiary_id AND do.idDonor = p.idDonor";
 	$r = mysql_query($query);
 	$rows = mysql_num_rows($r);
 	echo "
@@ -32,7 +28,7 @@ class Donations {
 			</div>	
 			<div style='position:absolute;left:40%;top:34%;'>";
 			echo "<table border = '1'>";
-			echo "<tr style='background-color:crimson;text-align:center;color:white;'> <th> Donor's ID </th> <th> Date of delivery </th> </tr>";
+			echo "<tr style='background-color:crimson;text-align:center;color:white;'> <th> Donor </th> <th> Date of delivery </th> </tr>";
 			for ($i=0; $i<$rows; $i++){
 				if($i%2 == 0)
 					echo "<tr style='background-color:chartreuse;text-align:center;'>";
